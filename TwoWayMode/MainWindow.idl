@@ -1,0 +1,11 @@
+namespace TwoWayMode
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Windows.Foundation.Size MySize;
+
+        Windows.Foundation.Rect MyRect;
+    }
+}
